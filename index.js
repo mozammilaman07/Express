@@ -9,5 +9,5 @@ app.listen(port, () => {
 
 app.use((req,res) => {
     console.log("new incoming request");
-    res.send("this is a web page")
+    res.send("this is a web page");
 });
